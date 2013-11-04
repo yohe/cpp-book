@@ -11414,14 +11414,14 @@ while ( T t = x ) 文
 
 <pre>
 label:
-{
+{                   // 条件の有効範囲の開始
     T t = x;
     if (t)
     {
         文
         goto label;
     }
-}
+}                   // 条件の有効範囲の終了
 </pre>
 
 <p>
